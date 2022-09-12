@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    width: 99.99vw;
+    overflow-x:hidden;
+
+}
+.parentContainer{
+    width: 100vw;
+    height:fit-content;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content:start;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    background-color: #52ACFF;
+    background-image: linear-gradient(90deg, tomato,#369af8 ,#FFE32C 100%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    text-align:left;
+    height: 10%;
+    color: antiquewhite;
+    background-color: black;
+    font-size: 32px;  
+    float: left;
+    padding: 3vh 2.5vw;
+    box-sizing: border-box;
+
+}
+.navspans{
+    float: right;
+    font-size: 18px; 
+    margin: 0vh 1vw;
+    border-radius: 20px;
+    color: black;
+    /*border: 3px solid slateblue;*/
+
+}
+
+.mainblocks{
+    text-align: center;
+    height:max-content;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 60vw;
+    margin: 10vh auto 0px auto;
+    box-sizing: border-box;
+}
+.seperateBlocks{
+    margin: 5vh auto;
+    padding:5vh 0px;
+    border-radius: 10px;
+    height: 25vh;
+    border: 2px solid black;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+.buttonclass{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 10vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin-top: 2.5vh;
+    
+}
+
+button:hover{
+    cursor:pointer;
+
+}
+.navspans button{
+    border-radius: 20px;
+    border: 3px solid black;
+    width: 7.5vw;
+    background-color:sandybrown;
+    font-size: 16px;
+    height: 5vh;
+    font-style: bold;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+.spanners{
+    width: 40vw;
+    margin: 0px 10vw;
+    border-radius: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    height: 10%;
+    color: white;
+    background-color: black;
+}
+.footerdiv{
+    font-size: 24px;
+    margin: 2vh 0px 1vh 0px;
+}
+.footerlinks{
+    color: white;
+    font-size: 30px;
+    margin: 3vh 1.5vw;
+    text-align: center;
+}
+.footerlinks:visited{
+    color: white;
+}
+.footerlinks:hover{
+    cursor: pointer;
+}
