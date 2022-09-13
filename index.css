@@ -116,14 +116,23 @@ button:hover{
     border-radius: 20px;
 
 }
-
+.copyrights{
+    position: fixed;
+    bottom: 10.5vh;
+    right: 0px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+    border-bottom: 1px solid white;
+}
 footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
     margin: 0px;
     text-align: center;
-    height: 12%;
+    height: 10.5%;
     color: white;
     background-color: black;
 }
