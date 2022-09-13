@@ -6,7 +6,7 @@ body{
 }
 .parentContainer{
     width: 100vw;
-    height:max-content;
+    height:fit-content;
     box-sizing: border-box;
     padding: 0px;
     justify-content:start;
@@ -14,14 +14,9 @@ body{
     flex-shrink: 1;
     flex-grow: 1;
     flex-wrap: wrap;
-    /*background-color: #52ACFF;
-    background-image: linear-gradient(90deg, tomato,#369af8 ,#FFE32C 100%);*/
-    background-image: url("./journey.webp");
-    background-attachment: fixed;
-    background-size: 99vw 79vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+    background: #FDFC47;  /* fallback for old browsers */
+    background: linear-gradient(to right,black,#FDFC47, #53ce64 , #FDFC47,black ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 
@@ -39,6 +34,7 @@ nav{
     float: left;
     padding: 3vh 2.5vw;
     box-sizing: border-box;
+
 }
 .navspans{
     float: right;
@@ -50,26 +46,32 @@ nav{
 
 }
 
-.mainblocks{
+.allprojectdivs{
+    margin: 10vh auto;
+    padding:5vh auto ;
+    height: 100%;
+}
+.myprojContainer{
+    margin: auto;
+    width: 60vw;
+    border-radius: 10px;
+    font-size: 36px;
     text-align: center;
-    height:max-content;
+    box-sizing: border-box;
+    padding: 2.5vh 0px;
+    text-decoration: solid underline;
+}
+.eachprojContainer{
+    border: 2px solid black;
+    margin: 5vh auto;
+    width: 60vw;
     border-radius: 10px;
     font-size: 24px;
-    width: 60vw;
-    margin: 10vh auto 0px auto;
+    text-align: center;
     box-sizing: border-box;
-}
-.seperateBlocks{
-    margin: 5vh auto;
-    padding:5vh 0px;
-    border-radius: 10px;
-    height: 25vh;
-    border: 2px solid black;
+    padding: 5vh 0px;
 
-}
-.texthighlights{
-    text-align:justify; 
-    padding:0px 5vw;
+
 }
 a{
     color: black;
@@ -101,7 +103,7 @@ button:hover{
     border-radius: 20px;
     border: 3px solid black;
     width: 7.5vw;
-    background-color:seagreen;
+    background-color:sandybrown;
     font-size: 16px;
     height: 5vh;
     font-style: bold;
@@ -110,11 +112,11 @@ button:hover{
 
     
 }
+
 .spanners{
     width: 40vw;
     margin: 0px 10vw;
     border-radius: 20px;
-
 }
 
 footer{
@@ -137,9 +139,10 @@ footer{
     margin: 3vh 1.5vw;
     text-align: center;
 }
-.footerlinks:visited{
-    color: white;
-}
 .footerlinks:hover{
     cursor: pointer;
 }
+.footerlinks:visited{
+    color: white;
+}
+/* Projects.css
